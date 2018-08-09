@@ -1,7 +1,3 @@
-.container-max{
-  width: 100%;
-}
-
 body {
   color: #343A40;
   font-family: 'Roboto';
@@ -9,7 +5,7 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Oswald';
+  font-family: 'Fugaz One';
 }
 
 h2 {
@@ -20,155 +16,36 @@ h4 {
   color: #EB4616;
 }
 
-hr {
-  background-color: #343A40;
+.navbar-brand {
+  font-family: 'Fugaz One'
 }
 
-.white {
-  background-color: white;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-
-}
-
-.footer {
-  margin-top: 16px;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  background-color: #cccccc;
-}
-
-.white-text {
-  color: #ffffff;
-}
-
-.jumbotron {
-  background-color: #343A40;
-  border-radius: 0px;
-  margin-bottom: 16px;
-}
-
-.btn {
-  border: 2px solid #343A40;
-  background-color: white;
-  color: #343A40;
-  cursor: pointer;
-  margin-bottom: 30px;
-}
-
-.btn-learn-more {
-  border-color: #EB4616;
+span {
   color: #EB4616;
 }
 
-.btn-learn-more:hover {
-  background: #EB4616;
+.navbar-dark {
+  background-color: #004b79 !important;
+}
+
+.bg-dark {
+  background-color: #004b79 !important;
+}
+
+.subtitle {
   color: white;
 }
 
-.fas {
-  color: #343A40;
-  padding-right: 10px;
+.title {
+  color: #eb4616;
 }
 
-.img-responsive {
-  width: 100%;
-  padding;
-  0px 0px 0px 0px;
-}
-
-.carousel-row {
-  padding-bottom: 30px;
-}
-
-.profile-container {
-  position: relative;
-}
-
-.profile-img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #343A40;
-}
-
-.profile-container:hover .overlay {
-  opacity: 1;
-}
-
-.profile-text {
-  color: white;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.profile-header {
-  padding-top: 10px;
-  padding-bottom: 20px;
-  text-align: center;
-}
-
-.no-margin {
-  margin: 0px 0px 0px 0px;
-}
-
-.responsive-calendar {
-  position: relative;
-  padding-bottom: 75%;
-  overflow: hidden;
-}
-
-.responsive-calendar iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 80%;
-}
-
-.sponsor {
-  padding-top: 16px;
-}
-
-.sponsor-platinum, .sponsor-gold, .sponsor-silver, .sponsor-bronze {
-  margin-bottom: 10px;
-}
-
-.sponsor-platinum {
-  border: 3px solid #E5E4E2;
-  background-image: url(../images/platinum.png);
-}
-
-.sponsor-gold {
-  border: 3px solid #FFD700;
-}
-
-.sponsor-silver {
-  border: 3px solid #C0C0C0;
-}
-
-.sponsor-bronze {
-  border: 3px solid #CD7F32;
-}
-
-.padding-top {
-  padding-top: 15px;
+.jumbotron-home {
+  background-image: url(../images/home-bg.jpg);
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0px;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
 }
