@@ -1,35 +1,37 @@
 body {
-  color: #343A40;
+  color: #343a40;
   font-family: 'Roboto';
   height: auto;
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Fugaz One';
+  font-family: 'Open Sans';
+  font-weight: 800;
 }
 
 h2 {
-  color: #EB4616;
+  color: #eb4616;
 }
 
 h4 {
-  color: #EB4616;
+  color: #eb4616;
 }
 
 .navbar-brand {
-  font-family: 'Fugaz One'
+  font-family: 'Open Sans';
+  font-weight: 800;
 }
 
 span {
-  color: #EB4616;
+  color: #eb4616;
 }
 
 .navbar-dark {
-  background-color: #004b79 !important;
+  background-color: rgb(0, 50, 80) !important;
 }
 
 .bg-dark {
-  background-color: #004b79 !important;
+  background-color: rgb(0, 50, 80) !important;
 }
 
 .subtitle {
@@ -42,10 +44,174 @@ span {
 
 .jumbotron-home {
   background-image: url(../images/home-bg.jpg);
-  background-position: 0% 50%;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0px;
   padding-bottom: 5rem;
   padding-top: 5rem;
+}
+
+.jumbotron-quote {
+  background-image: url(../images/quote-bg.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0px;
+  padding-bottom: 7rem;
+  padding-top: 7rem;
+  margin-bottom: 0px;
+}
+
+.jumbotron-about-us {
+  background-image: url(../images/quote-bg.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0px;
+  padding-bottom: 10rem;
+  padding-top: 10rem;
+  margin-bottom: 0px;
+}
+
+.quote-author {
+  padding-top: 15px;
+}
+
+footer {
+  margin-top: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgb(220, 220, 220);
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.profile-container {
+  position: relative;
+}
+
+.profile-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(0, 50, 80);
+}
+
+.profile-container:hover .overlay {
+  opacity: 1;
+}
+
+.profile-text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.profile-header {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.no-margin {
+  margin: 0px 0px 0px 0px;
+}
+
+.white {
+  background-color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.responsive-calendar {
+  position: relative;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.responsive-calendar iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.sponsor {
+  padding-top: 16px;
+}
+
+.sponsor-platinum, .sponsor-gold, .sponsor-silver, .sponsor-bronze {
+  margin-bottom: 10px;
+}
+
+.sponsor-platinum {
+  border: 3px solid #E5E4E2;
+  background-image: url(../images/platinum.png);
+}
+
+.sponsor-gold {
+  border: 3px solid #FFD700;
+}
+
+.sponsor-silver {
+  border: 3px solid #C0C0C0;
+}
+
+.sponsor-bronze {
+  border: 3px solid #CD7F32;
+}
+
+.padding-top {
+  padding-top: 15px;
+}
+
+.responsive-excel {
+  position: relative;
+  height: 65vh;
+  overflow: hidden;
+}
+
+.responsive-excel iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.responsive-map {
+  position: relative;
+  height: 65vh;
+  overflow: hidden;
+}
+
+.responsive-map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
