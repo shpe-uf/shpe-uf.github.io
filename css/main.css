@@ -1,86 +1,93 @@
-.container-max{
-  width: 100%;
-}
-
 body {
-  color: #343A40;
+  color: #343a40;
   font-family: 'Roboto';
   height: auto;
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Oswald';
+  font-family: 'Open Sans';
+  font-weight: 800;
 }
 
 h2 {
-  color: #EB4616;
+  color: #eb4616;
 }
 
 h4 {
-  color: #EB4616;
+  color: #eb4616;
 }
 
-hr {
-  background-color: #343A40;
+.navbar-brand {
+  font-family: 'Open Sans';
+  font-weight: 800;
 }
 
-.white {
-  background-color: white;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-
+span {
+  color: #eb4616;
 }
 
-.footer {
-  margin-top: 16px;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  background-color: #cccccc;
+.navbar-dark {
+  background-color: rgb(0, 50, 80) !important;
 }
 
-.white-text {
-  color: #ffffff;
+.bg-dark {
+  background-color: rgb(0, 50, 80) !important;
 }
 
-.jumbotron {
-  background-color: #343A40;
-  border-radius: 0px;
-  margin-bottom: 16px;
-}
-
-.btn {
-  border: 2px solid #343A40;
-  background-color: white;
-  color: #343A40;
-  cursor: pointer;
-  margin-bottom: 30px;
-}
-
-.btn-learn-more {
-  border-color: #EB4616;
-  color: #EB4616;
-}
-
-.btn-learn-more:hover {
-  background: #EB4616;
+.subtitle {
   color: white;
 }
 
-.fas {
-  color: #343A40;
-  padding-right: 10px;
+.title {
+  color: #eb4616;
 }
 
-.img-responsive {
-  width: 100%;
-  padding;
-  0px 0px 0px 0px;
+.jumbotron-home {
+  background-image: url(../images/home-bg.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0px;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
 }
 
-.carousel-row {
-  padding-bottom: 30px;
+.jumbotron-quote {
+  background-image: url(../images/quote-bg.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0px;
+  padding-bottom: 7rem;
+  padding-top: 7rem;
+  margin-bottom: 0px;
+}
+
+.jumbotron-about-us {
+  background-image: url(../images/quote-bg.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0px;
+  padding-bottom: 10rem;
+  padding-top: 10rem;
+  margin-bottom: 0px;
+}
+
+.quote-author {
+  padding-top: 15px;
+}
+
+footer {
+  margin-top: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgb(220, 220, 220);
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .profile-container {
@@ -103,7 +110,7 @@ hr {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #343A40;
+  background-color: rgb(0, 50, 80);
 }
 
 .profile-container:hover .overlay {
@@ -130,9 +137,17 @@ hr {
   margin: 0px 0px 0px 0px;
 }
 
+.white {
+  background-color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .responsive-calendar {
   position: relative;
-  padding-bottom: 75%;
+  height: 80vh;
   overflow: hidden;
 }
 
@@ -141,7 +156,7 @@ hr {
   top: 0;
   left: 0;
   width: 100%;
-  height: 80%;
+  height: 100%;
 }
 
 .sponsor {
@@ -171,4 +186,32 @@ hr {
 
 .padding-top {
   padding-top: 15px;
+}
+
+.responsive-excel {
+  position: relative;
+  height: 65vh;
+  overflow: hidden;
+}
+
+.responsive-excel iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.responsive-map {
+  position: relative;
+  height: 65vh;
+  overflow: hidden;
+}
+
+.responsive-map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
