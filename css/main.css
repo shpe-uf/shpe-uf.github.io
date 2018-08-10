@@ -55,13 +55,19 @@ span {
 
 .jumbotron-quote {
   background-image: url(../images/quote-bg.jpg);
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* background-position: 50% 50%; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
   border-radius: 0px;
   padding-bottom: 7rem;
   padding-top: 7rem;
   margin-bottom: 0px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
 }
 
 .jumbotron-about-us {
